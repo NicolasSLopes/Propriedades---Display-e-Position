@@ -25,9 +25,9 @@ main {
     padding: 10px 0;
     text-align: center;
     font-size: 15px;
-    background-color: #f0f7ff;
-    border-left: 5px solid #0077ff;
-    border-radius: 4px;
+    background-color: #f0f7ff; 
+    border-left: 5px solid #004da5;
+    border-radius: 4px; 
     font-family: sans-serif;
     line-height: 1.3;
     margin-left: auto;
@@ -56,6 +56,7 @@ main {
 }
 .grid-container div { 
     background: coral; padding: 10px; 
+    margin: 20px;
 }
 
 .inline-grid {
@@ -63,10 +64,12 @@ main {
   grid-template-columns: 40px 40px;
   gap: 5px;
   background: #a0a2ff;
+  margin: 20px;
 }
 .inline-grid div {
     background: rgb(19, 3, 252); 
     text-align: center; 
+    margin: 20px;
 }
 
 .bloco {
@@ -74,12 +77,14 @@ main {
     background: lightblue;
     margin-bottom: 10px;
     height: 50px;
+    margin: 20px;
 }
 
 .em-linha {
     display: inline; 
     background: lightgreen;
     padding: 10px;
+    margin: 20px;
 }
 
 .bloco-inline {
@@ -88,6 +93,7 @@ main {
     height: 100px;
     background: coral;
     text-align: center;
+    margin: 20px;
 }
 
 .container-flex {
@@ -95,11 +101,13 @@ main {
     gap: 20px; 
     background: #f0f0f0;
     padding: 20px;
+    margin: 20px;
 }
 .item {
     background: white;
     padding: 20px;
     border: 1px solid #333;
+    margin: 20px;
 }
 
 .container-inline-flex {
@@ -107,6 +115,7 @@ main {
     gap: 10px;
     background: gold;
     padding: 10px;
+    margin: 20px;
 }
 
 .flow-root-box {
@@ -120,16 +129,19 @@ main {
     display: table; 
     width: 100%; 
     border-spacing: 5px;
+    margin: 20px;
  }
 
 .linha  { 
     display: table-row;
+    margin: 20px;
  }
 
 .celula { 
     display: table-cell; 
     border: 1px solid #333; 
     padding: 5px;
+    margin: 20px;
  }
 
 .bloco-normal {
@@ -137,6 +149,7 @@ main {
   background: lightsalmon;
   padding: 15px;
   margin-top: 10px;
+  margin: 20px;
 }
 
 .bloco {
@@ -144,6 +157,7 @@ main {
     background: lightblue;
     margin-bottom: 10px;
     height: 50px;
+    margin: 20px;
 }
 
 
@@ -151,6 +165,7 @@ main {
 .block-flex div {
     background: #4dd0e1;
     padding: 10px;
+    margin: 20px;
 }
 
 .block-grid {
@@ -160,19 +175,21 @@ main {
     background: #fff3e0;
     padding: 10px;
     gap: 10px;
+    margin: 20px;
 }
 
 .block-grid div {
     background: #ffb74d;
     padding: 10px;
+    margin: 20px;
 }
 
 .block-flow-root {
     display: block flow-root;
-    
     background: #e8f5e8;
     padding: 10px;
     border: 2px solid #81c784;
+    margin: 20px;
 }
 
 .float-box {
@@ -185,15 +202,15 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 20px;
 }
 
 .inline-flow {
-    display: inline flow;
-    
+    display: inline flow;   
     background: #ffcdd2;
     padding: 5px;
-    margin: 0 5px;
     border: 1px solid #ef5350;
+    margin: 20px;
 }
 
 .inline-flex-container {
@@ -203,12 +220,14 @@ main {
     padding: 10px;
     gap: 10px;
     margin-right: 10px;
+    margin: 20px;
 }
 
 .inline-flex-container span {
     background: #9575cd;
     padding: 5px 10px;
     color: white;
+<<<<<<< HEAD
 }
 
 .em-linha {
@@ -245,3 +264,7 @@ main {
     padding: 10px;
 }
 
+=======
+    margin: 20px;
+}
+>>>>>>> ec16ea7a2420c932362cf869efdf11a43e32e176
