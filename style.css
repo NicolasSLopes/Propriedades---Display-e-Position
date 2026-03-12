@@ -47,5 +47,105 @@ main {
     margin-bottom: 60px;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  background: #f0f0f0;
+  margin: 10px;
+}
+.grid-container div { 
+    background: coral; padding: 10px; 
+}
+
+.inline-grid {
+  display: inline-grid;
+  grid-template-columns: 40px 40px;
+  gap: 5px;
+  background: #a0a2ff;
+}
+.inline-grid div {
+    background: rgb(19, 3, 252); 
+    text-align: center; 
+}
+
+.bloco {
+    display: block; 
+    background: lightblue;
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+.em-linha {
+    display: inline; 
+    background: lightgreen;
+    padding: 10px;
+}
+
+.bloco-inline {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: coral;
+    text-align: center;
+}
+
+.container-flex {
+    display: flex;
+    gap: 20px; 
+    background: #f0f0f0;
+    padding: 20px;
+}
+.item {
+    background: white;
+    padding: 20px;
+    border: 1px solid #333;
+}
+
+.container-inline-flex {
+    display: inline-flex;
+    gap: 10px;
+    background: gold;
+    padding: 10px;
+}
+
+.flow-root-box {
+  display: flow-root;
+  background: #3448fc;
+  padding: 10px;
+  margin: 10px;
+}
+
+.tabela { 
+    display: table; 
+    width: 100%; 
+    border-spacing: 5px;
+ }
+
+.linha  { 
+    display: table-row;
+ }
+
+.celula { 
+    display: table-cell; 
+    border: 1px solid #333; 
+    padding: 5px;
+ }
+
+.bloco-normal {
+  display: block flow;
+  background: lightsalmon;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.bloco {
+    display: block; 
+    background: lightblue;
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+
 
 
