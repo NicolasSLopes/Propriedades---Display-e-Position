@@ -29,7 +29,7 @@ main {
     border-left: 5px solid #004da5;
     border-radius: 4px; 
     font-family: sans-serif;
-    line-height: 1.3; 
+    line-height: 1.3;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
@@ -38,7 +38,7 @@ main {
 
 .box {
     color: #ffffff;
-    background-color:  #0084ff;
+    background-color: #0084ff;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
@@ -47,5 +47,185 @@ main {
     margin-bottom: 60px;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  background: #f0f0f0;
+  margin: 10px;
+}
+.grid-container div { 
+    background: coral; padding: 10px; 
+    margin: 20px;
+}
+
+.inline-grid {
+  display: inline-grid;
+  grid-template-columns: 40px 40px;
+  gap: 5px;
+  background: #a0a2ff;
+  margin: 20px;
+}
+.inline-grid div {
+    background: rgb(19, 3, 252); 
+    text-align: center; 
+    margin: 20px;
+}
+
+.bloco {
+    display: block; 
+    background: lightblue;
+    margin-bottom: 10px;
+    height: 50px;
+    margin: 20px;
+}
+
+.em-linha {
+    display: inline; 
+    background: lightgreen;
+    padding: 10px;
+    margin: 20px;
+}
+
+.bloco-inline {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: coral;
+    text-align: center;
+    margin: 20px;
+}
+
+.container-flex {
+    display: flex;
+    gap: 20px; 
+    background: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+}
+.item {
+    background: white;
+    padding: 20px;
+    border: 1px solid #333;
+    margin: 20px;
+}
+
+.container-inline-flex {
+    display: inline-flex;
+    gap: 10px;
+    background: gold;
+    padding: 10px;
+    margin: 20px;
+}
+
+.flow-root-box {
+  display: flow-root;
+  background: #3448fc;
+  padding: 10px;
+  margin: 10px;
+}
+
+.tabela { 
+    display: table; 
+    width: 100%; 
+    border-spacing: 5px;
+    margin: 20px;
+ }
+
+.linha  { 
+    display: table-row;
+    margin: 20px;
+ }
+
+.celula { 
+    display: table-cell; 
+    border: 1px solid #333; 
+    padding: 5px;
+    margin: 20px;
+ }
+
+.bloco-normal {
+  display: block flow;
+  background: lightsalmon;
+  padding: 15px;
+  margin-top: 10px;
+  margin: 20px;
+}
+
+.bloco {
+    display: block; 
+    background: lightblue;
+    margin-bottom: 10px;
+    height: 50px;
+    margin: 20px;
+}
 
 
+
+.block-flex div {
+    background: #4dd0e1;
+    padding: 10px;
+    margin: 20px;
+}
+
+.block-grid {
+    display: block grid;
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    background: #fff3e0;
+    padding: 10px;
+    gap: 10px;
+    margin: 20px;
+}
+
+.block-grid div {
+    background: #ffb74d;
+    padding: 10px;
+    margin: 20px;
+}
+
+.block-flow-root {
+    display: block flow-root;
+    background: #e8f5e8;
+    padding: 10px;
+    border: 2px solid #81c784;
+    margin: 20px;
+}
+
+.float-box {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #66bb6a;
+    margin-right: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.inline-flow {
+    display: inline flow;   
+    background: #ffcdd2;
+    padding: 5px;
+    border: 1px solid #ef5350;
+    margin: 20px;
+}
+
+.inline-flex-container {
+    display: inline flex;
+    
+    background: #d1c4e9;
+    padding: 10px;
+    gap: 10px;
+    margin-right: 10px;
+    margin: 20px;
+}
+
+.inline-flex-container span {
+    background: #9575cd;
+    padding: 5px 10px;
+    color: white;
+    margin: 20px;
+}
