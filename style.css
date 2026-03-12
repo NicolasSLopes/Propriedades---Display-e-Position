@@ -47,5 +47,46 @@ main {
     margin-bottom: 60px;
 }
 
+.block-flex {
+  display: block flex;
+  background: #e0f7fa;
+  padding: 10px;
+  gap: 10px;
+}
 
+.block-flex div {
+  background: #4dd0e1;
+  padding: 10px;
+}
+.block-grid {
+  display: block grid;
+  /* ou simplesmente: display: grid; */
+  grid-template-columns: 1fr 1fr 1fr;
+  background: #fff3e0;
+  padding: 10px;
+  gap: 10px;
+}
 
+.block-grid div {
+  background: #ffb74d;
+  padding: 10px;
+}
+.block-flow-root {
+  display: block flow-root;
+  /* ou simplesmente: display: flow-root; */
+  background: #e8f5e8;
+  padding: 10px;
+  border: 2px solid #81c784;
+}
+
+.float-box {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #66bb6a;
+  margin-right: 15px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
