@@ -27,8 +27,9 @@
                         Elementos como <code>&lt;div&gt;</code> e <code>&lt;p&gt;</code> já são blocos por padrão, alem
                         de <code>&lt;span&gt;</code> , em blocos usando <code>display: block</code>.</p>
 
-                </div> <div class="bloco">Bloco A</div>
-<div class="bloco">Bloco B</div>
+                </div>
+                <div class="bloco">Bloco A</div>
+                <div class="bloco">Bloco B</div>
 
             </div>
 
@@ -36,99 +37,89 @@
                 <h2> Display: inline </h2>
 
                 <div class="Explicação">
-                    <p>Display: block é uma propriedade do CSS que faz com que um elemento ocupe toda a largura
-                        disponível da página
-                        e comece sempre em uma nova linha. Isso significa que outros elementos não ficam ao lado dele,
-                        mas sim abaixo.
-                        Elementos como <code>&lt;div&gt;</code> e <code>&lt;p&gt;</code> já são blocos por padrão, alem
-                        de <code>&lt;span&gt;</code> , em blocos usando <code>display: block</code>.</p>
+                    <p>O elemento fica na mesma linha que outros, como se fosse uma palavra. Não dá pra definir largura
+                        e altura, e as margens verticais não empurram os elementos de cima e de baixo. É o caso de
+                        spans, links e textos em geral.</p>
 
-                </div>
+                </div><span class="em-linha">Texto 1</span>
+                <span class="em-linha">Texto 2</span>
+
             </div>
 
             <div class="box">
                 <h2> Display: inline-block </h2>
 
                 <div class="Explicação">
-                    <p>Display: block é uma propriedade do CSS que faz com que um elemento ocupe toda a largura
-                        disponível da página
-                        e comece sempre em uma nova linha. Isso significa que outros elementos não ficam ao lado dele,
-                        mas sim abaixo.
-                        Elementos como <code>&lt;div&gt;</code> e <code>&lt;p&gt;</code> já são blocos por padrão, alem
-                        de <code>&lt;span&gt;</code> , em blocos usando <code>display: block</code>.</p>
+                    <p>Esse é aquele que junta os dois mundos: fica na mesma linha com outros elementos, mas você
+                        consegue controlar largura, altura, margem e preenchimento como se fosse um bloco. Ótimo pra
+                        botões e cards pequenos lado a lado.</p>
 
                 </div>
+                <div class="bloco-inline">Cartão 1</div>
+                <div class="bloco-inline">Cartão 2</div>
+
             </div>
 
             <div class="box">
                 <h2> Display: flex </h2>
 
                 <div class="Explicação">
-                    <p>Display: block é uma propriedade do CSS que faz com que um elemento ocupe toda a largura
-                        disponível da página
-                        e comece sempre em uma nova linha. Isso significa que outros elementos não ficam ao lado dele,
-                        mas sim abaixo.
-                        Elementos como <code>&lt;div&gt;</code> e <code>&lt;p&gt;</code> já são blocos por padrão, alem
-                        de <code>&lt;span&gt;</code> , em blocos usando <code>display: block</code>.</p>
+                    <p>Vira um container que organiza os filhos de forma flexível. Por fora ele é bloco, então ocupa a
+                        linha toda. Por dentro você controla direção, alinhamento, espaçamento e ordem dos elementos.
+                        Muito usado pra barras de navegação, listas de produtos e alinhamentos em geral.</p>
 
                 </div>
+                <div class="container-flex">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item">3</div>
+                </div>
+
             </div>
 
             <div class="box">
                 <h2> Display: inline-flex </h2>
 
                 <div class="Explicação">
-                    <p>Display: block é uma propriedade do CSS que faz com que um elemento ocupe toda a largura
-                        disponível da página
-                        e comece sempre em uma nova linha. Isso significa que outros elementos não ficam ao lado dele,
-                        mas sim abaixo.
-                        Elementos como <code>&lt;div&gt;</code> e <code>&lt;p&gt;</code> já são blocos por padrão, alem
-                        de <code>&lt;span&gt;</code> , em blocos usando <code>display: block</code>.</p>
+                    <p>Mesma ideia do flex por dentro, mas por fora o container se comporta como inline. Ou seja, não
+                        quebra linha e outros elementos podem ficar do lado. Útil quando você quer uma barra flexível
+                        que não ocupe a largura toda.</p>
 
                 </div>
+                <div class="container-inline-flex">
+                    <div>A</div>
+                    <div>B</div>
+                </div>
+                <span>Texto ao lado do container</span>
+
             </div>
 
             <div class="box">
                 <h2> Display: grid </h2>
 
-<<<<<<< HEAD
-                <div  class="Explicação">
-                    <p>Display: block é uma propriedade do CSS que faz com que um elemento ocupe toda a largura disponível da página 
-                        e comece sempre em uma nova linha. Isso significa que outros elementos não ficam ao lado dele, mas sim abaixo.
-                        Elementos como <code>&lt;div&gt;</code> e <code>&lt;p&gt;</code> já são blocos por padrão, alem de <code>&lt;span&gt;</code> , em blocos usando <code>display: block</code>.</p>
-                        
-=======
                 <div class="Explicação">
-                    <p>Display: block é uma propriedade do CSS que faz com que um elemento ocupe toda a largura
-                        disponível da página
-                        e comece sempre em uma nova linha. Isso significa que outros elementos não ficam ao lado dele,
-                        mas sim abaixo.
-                        Elementos como <code>&lt;div&gt;</code> e <code>&lt;p&gt;</code> já são blocos por padrão, alem
-                        de <code>&lt;span&gt;</code> , em blocos usando <code>display: block</code>.</p>
+                    <p>Cria um sistema de linhas e colunas pra organizar os filhos em duas dimensões. Por fora é bloco,
+                        então ocupa a linha inteira. Perfeito pra layouts de página inteira, galerias e divisões mais
+                        complexas.</p>
 
->>>>>>> 7549ba57b38649c5a2a35c15f0bc227a36bad5d8
                 </div>
                 <div class="grid-container">
-                <div>grid</div>
-                <div>grid</div>
-            </div>
+                    <div>grid</div>
+                    <div>grid</div>
+                </div>
             </div>
 
             <div class="box">
                 <h2> Display: inline-grid </h2>
 
                 <div class="Explicação">
-                    <p>Display: block é uma propriedade do CSS que faz com que um elemento ocupe toda a largura
-                        disponível da página
-                        e comece sempre em uma nova linha. Isso significa que outros elementos não ficam ao lado dele,
-                        mas sim abaixo.
-                        Elementos como <code>&lt;div&gt;</code> e <code>&lt;p&gt;</code> já são blocos por padrão, alem
-                        de <code>&lt;span&gt;</code> , em blocos usando <code>display: block</code>.</p>
+                    <p>É o grid com comportamento inline por fora. A estrutura interna continua sendo de linhas e
+                        colunas, mas o container não quebra linha e se ajusta ao lado de outros elementos.</p>
 
                 </div>
                 <div class="inline-grid">
-                <div>inline</div>
-                <div>grid</div>
+                    <div>inline</div>
+                    <div>grid</div>
                 </div>
                 <span>inline-grid</span>
             </div>
@@ -137,63 +128,48 @@
                 <h2> Display: flow-root </h2>
 
                 <div class="Explicação">
-                    <p>Display: block é uma propriedade do CSS que faz com que um elemento ocupe toda a largura
-                        disponível da página
-                        e comece sempre em uma nova linha. Isso significa que outros elementos não ficam ao lado dele,
-                        mas sim abaixo.
-                        Elementos como <code>&lt;div&gt;</code> e <code>&lt;p&gt;</code> já são blocos por padrão, alem
-                        de <code>&lt;span&gt;</code> , em blocos usando <code>display: block</code>.</p>
+                    <p>Cria um novo contexto de formatação que faz o elemento "abraçar" os filhos flutuantes, evitando
+                        que eles vazem ou que o pai desabe. Resolve problemas de float sem precisar de clearfix.</p>
 
                 </div>
                 <div class="flow-root-box">
-                <div style="float: left; width: 50px; height: 50px; background: red;"></div>
-                <p>O fundo  cobre o float porque usamos flow-root.</p>
-            </div>
+                    <div style="float: left; width: 50px; height: 50px; background: red;"></div>
+                    <p>O fundo cobre o float porque usamos flow-root.</p>
+                </div>
             </div>
 
             <div class="box">
                 <h2> Display: table </h2>
 
                 <div class="Explicação">
-                    <p>Display: block é uma propriedade do CSS que faz com que um elemento ocupe toda a largura
-                        disponível da página
-                        e comece sempre em uma nova linha. Isso significa que outros elementos não ficam ao lado dele,
-                        mas sim abaixo.
-                        Elementos como <code>&lt;div&gt;</code> e <code>&lt;p&gt;</code> já são blocos por padrão, alem
-                        de <code>&lt;span&gt;</code> , em blocos usando <code>display: block</code>.</p>
+                    <p>Faz o elemento se comportar como tabela, seguindo as regras de layout tabular. Hoje em dia é
+                        pouco usado porque flex e grid resolvem melhor, mas ainda pode aparecer em situações legadas.
+                    </p>
 
                 </div>
                 <div class="tabela">
-                <div class="linha">
-                <div class="celula">display</div>
-                <div class="celula">table</div>
+                    <div class="linha">
+                        <div class="celula">display</div>
+                        <div class="celula">table</div>
+                    </div>
                 </div>
-            </div>
             </div>
 
             <div class="box">
                 <h2> Display: block flow </h2>
 
                 <div class="Explicação">
-                    <p>Display: block é uma propriedade do CSS que faz com que um elemento ocupe toda a largura
-                        disponível da página
-                        e comece sempre em uma nova linha. Isso significa que outros elementos não ficam ao lado dele,
-                        mas sim abaixo.
-                        Elementos como <code>&lt;div&gt;</code> e <code>&lt;p&gt;</code> já são blocos por padrão, alem
-                        de <code>&lt;span&gt;</code> , em blocos usando <code>display: block</code>.</p>
+                    <p>É a forma nova e mais explícita de escrever o block tradicional. O "block" diz como ele se
+                        comporta por fora (ocupando linha toda), e "flow" diz que os filhos seguem o fluxo normal de
+                        bloco e inline.</p>
 
                 </div>
                 <div class="bloco-normal">
-                Conteúdo em fluxo normal (block flow).
+                    Conteúdo em fluxo normal (block flow).
                 </div>
             </div>
-<<<<<<< HEAD
-            
-             <div class="box">
-=======
 
             <div class="box">
->>>>>>> 7549ba57b38649c5a2a35c15f0bc227a36bad5d8
                 <h2> Display: block flex </h2>
 
                 <div class="Explicação">

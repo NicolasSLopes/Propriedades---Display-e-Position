@@ -47,7 +47,6 @@ main {
     margin-bottom: 60px;
 }
 
-<<<<<<< HEAD
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -148,14 +147,6 @@ main {
 }
 
 
-=======
-.block-flex {
-    display: block flex;
-    background: #e0f7fa;
-    padding: 10px;
-    gap: 10px;
-}
->>>>>>> 7549ba57b38649c5a2a35c15f0bc227a36bad5d8
 
 .block-flex div {
     background: #4dd0e1;
@@ -219,3 +210,38 @@ main {
     padding: 5px 10px;
     color: white;
 }
+
+.em-linha {
+    display: inline;
+    background: lightgreen;
+    padding: 10px;
+}
+
+.bloco-inline {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: coral;
+    text-align: center;
+}
+
+
+.container-flex {
+    display: flex;
+    gap: 20px;
+    background: #f0f0f0;
+    padding: 20px;
+}
+.item {
+    background: white;
+    padding: 20px;
+    border: 1px solid #333;
+}
+
+.container-inline-flex {
+    display: inline-flex;
+    gap: 10px;
+    background: gold;
+    padding: 10px;
+}
+
