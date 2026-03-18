@@ -15,10 +15,15 @@
     </header>
 
     <main>
-        <section id = "DIV">
+        <div class="titulo">
+            <h1>Display</h1>
+        </div>
+      
             <div class="box">
-                <h2> Display: block </h2>
-
+                <div>
+                     <h2> Display: block </h2>
+                </div>
+               
                 <div class="Explicação">
                     <p>Display: block é uma propriedade do CSS que faz com que um elemento ocupe toda a largura
                         disponível da página
@@ -282,8 +287,61 @@
 
             </div>
 
+            <div class="titulo">
+                <h1>Position</h1>
+            </div>
+
+            <div class="box">
+                <h2> sticky </h2>
+
+                <div class="Explicação">
+                    <p>Combina relative e fixed. O elemento segue o fluxo normal até atingir a posição definida (por exemplo, top: 0)
+                         e então fica preso na tela enquanto o usuário rola.</p>
+                </div>
+                <div class="container">
+                    <div class="box sticky">Sticky</div>
+                    <p>Teste sticky</p>
+                </div>
+                
+             </div>
+
+                <div class="box">
+                <h2> static </h2>
+
+                <div class="Explicação">
+                    <p>É o valor padrão do CSS. O elemento segue o fluxo normal da página e não pode ser movido usando top, left, right ou bottom.</p>
+
+                </div> 
+                 <div class="box static">Static</div>
+            </div>
+
+            <div class="box">
+                <h2> relative </h2>
+
+                <div class="Explicação">
+                    <p>O elemento permanece no fluxo normal, mas pode ser deslocado em relação à sua posição original usando top, left, 
+                        right ou bottom. O espaço original continua reservado.</p>
+
+                </div> 
+                <div class="box relative">Relative</div>
+            </div>
+
+            <div class="box">
+                <h2> absolute </h2>
+
+                <div class="Explicação">
+                    <p>O elemento sai do fluxo normal e é posicionado em relação ao seu ancestral mais próximo que tenha position diferente de static.
+                         Ele pode sobrepor outros elementos.</p>
+                </div> 
+                <div class="container-absolute">
+                    <div class="box absolute">Absolute</div>
+                </div>
+            </div>
+
+           
+
     
-        </section>
+    
     </main>
 </body>
 
