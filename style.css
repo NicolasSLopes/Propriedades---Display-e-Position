@@ -310,12 +310,6 @@ main {
   overflow: visible; 
 }
 
-.static {
-    position: static;
-    background-color: #f39c12;
-    padding: 10px;
-    border-radius: 4px;
-}
 
 .relative {
     position: relative;
@@ -327,20 +321,5 @@ main {
     border-radius: 4px;
 }
 
-.absolute {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    background-color: #2980b9;
-    color: white;
-    padding: 10px;
-    border-radius: 4px;
-}
 
-.fixed {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    background-color: #8e44ad;
-    color: white;
-}
+
