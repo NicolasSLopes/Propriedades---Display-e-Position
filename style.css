@@ -262,14 +262,14 @@ main {
 }
 
 .container-inline-flex {
-    display: inline-flex;
+    display: inline flex;
     gap: 10px;
     background: gold;
     padding: 10px;
 }
 
 .grade-inline {
-    display: inline-grid;
+    display: inline grid;
     grid-template-columns: 40px 40px; 
     gap: 5px;
     background: #f1c40f;
