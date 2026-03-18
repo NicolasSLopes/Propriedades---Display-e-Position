@@ -232,8 +232,8 @@
                 <h2> Display: inline flex </h2>
 
                 <div class="Explicação">
-                    <p>A versão descritiva do inline-flex. Por fora é linha, por dentro é flexível. Mesmo comportamento
-                        do inline-flex que a gente já conhece.
+                    <p>inline-flex faz o elemento ficar na mesma linha que outros (inline) enquanto organiza os filhos como flex, 
+                        permitindo alinhamento e espaçamento interno.
                     </p>
 
                 </div>
@@ -255,15 +255,13 @@
 
                 </div> <span>Texto antes</span>
 
-<div class="grade-inline">
-  <div class="item">1</div>
-  <div class="item">2</div>
-  <div class="item">3</div>
-  <div class="item">4</div>
-</div>
-
-<span>Texto depois</span>
-
+                <div class="grade-inline">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item">3</div>
+                    <div class="item">4</div>
+                </div>
+                    <span>Texto depois</span>
             </div>
 
 
@@ -271,22 +269,22 @@
                 <h2> Display: inline flow-root </h2>
 
                 <div class="Explicação">
-                    <p>Um caso mais específico. Por fora é linha, então fica na mesma linha com outros elementos. Por dentro cria aquele contexto que abraça os filhos flutuantes, igual ao flow-root. Pode ser útil em situações bem particulares, mas não é comum no dia a dia.</p>
+                    <p>Um caso mais específico. Por fora é linha, então fica na mesma linha com outros elementos. Por dentro cria aquele contexto que abraça os filhos flutuantes,
+                         igual ao flow-root. Pode ser útil em situações bem particulares, mas não é comum no dia a dia.</p>
 
-                </div> <div class="fluxo-root">
-  <div class="filho-com-margem">
-    Sou um inline-flow-root. Minha margem não "empurra" o que está fora de mim.
-  </div>
-</div>
-<span>Texto ao lado</span>
+                </div> 
+                <div class="fluxo-root">
+                    <div class="filho-com-margem">
+                        Sou um inline-flow-root. Minha margem não "empurra" o que está fora de mim.
+                    </div>
+                </div>
+                <span>Texto ao lado</span>
 
             </div>
+
+    
         </section>
     </main>
-
-    <footer>
-
-    </footer>
 </body>
 
 </html>
