@@ -10,8 +10,6 @@ body {
     padding: 8px 0;
     text-align: center;
     font-size: 20px;
-    top: 0;
-    left: 0;
     width: 100%;
 }
 
@@ -76,10 +74,10 @@ main {
   background: #a0a2ff;
   margin: 20px;
 }
+
 .inline-grid div {
     background: rgb(19, 3, 252); 
     text-align: center; 
-    margin: 20px;
 }
 
 .bloco {
@@ -144,14 +142,12 @@ main {
 
 .linha  { 
     display: table-row;
-    margin: 20px;
  }
 
 .celula { 
     display: table-cell; 
     border: 1px solid #333; 
     padding: 5px;
-    margin: 20px;
  }
 
 .bloco-normal {
@@ -160,14 +156,6 @@ main {
   padding: 15px;
   margin-top: 10px;
   margin: 20px;
-}
-
-.bloco {
-    display: block; 
-    background: lightblue;
-    margin-bottom: 10px;
-    height: 50px;
-    margin: 20px;
 }
 
 .block-flex div {
@@ -189,7 +177,6 @@ main {
 .block-grid div {
     background: #ffb74d;
     padding: 10px;
-    margin: 20px;
 }
 
 .block-flow-root {
@@ -237,38 +224,11 @@ main {
     color: white;
 }
 
-.em-linha {
-    display: inline;
-    background: lightgreen;
-    padding: 10px;
-}
 
-.bloco-inline {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    background: coral;
-    text-align: center;
-}
-
-
-.container-flex {
-    display: flex;
-    gap: 20px;
-    background: #f0f0f0;
-    padding: 20px;
-}
 .item {
     background: white;
     padding: 20px;
     border: 1px solid #333;
-}
-
-.container-inline-flex {
-    display: inline flex;
-    gap: 10px;
-    background: gold;
-    padding: 10px;
 }
 
 .grade-inline {
@@ -278,12 +238,6 @@ main {
     background: #f1c40f;
     padding: 5px;
     vertical-align: middle; 
-}
-
-.item {
-    background: white;
-    text-align: center;
-    border: 1px solid #333;
 }
 
 .fluxo-root {
@@ -310,15 +264,39 @@ main {
   overflow: visible; 
 }
 
+.posicao {
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    margin: 20px auto;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
 
 .relative {
     position: relative;
-    top: 10px;
-    left: 10px;
-    background-color: #27ae60;
-    color: white;
-    padding: 10px;
-    border-radius: 4px;
+    top: 20px;
+    left: 20px;
+    background-color: #ff6f61;
+}
+
+
+.absolute {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #4caf50;
+}
+
+
+.fixed {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #2196f3;
 }
 
 
